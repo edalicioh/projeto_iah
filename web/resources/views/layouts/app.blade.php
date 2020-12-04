@@ -73,6 +73,9 @@
         <main class="container">
             @yield('content')
         </main>
+        <footer>
+            <p>© 2020 Defesa Civil - Todos os direitos reservados</p>
+        </footer>
     </div>
 </body>
 </html>

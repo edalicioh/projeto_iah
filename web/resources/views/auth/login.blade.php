@@ -3,7 +3,7 @@
 @section('content')
     <div class="row card-center ">
         <div class="col-md-6">
-            <h1 class="mb-5 titulo-login">LOGIN</h1>
+            <h1 class="mb-5 titulo t-login">LOGIN</h1>
             <form action="#" method="post">
                 <div class="form-group">
                   <input type="text"
@@ -14,8 +14,8 @@
                     class="form-control form-control-lg rounded-pill border border-primary" placeholder="CPF">
                 </div>
                 <div class="row justify-content-between px-3 my-3">
-                    <button type="button" class="btn btn-secondary rounded-pill btn-lg px-4 font-weight-bold">Acessar</button>
-                    <button type="button" class="btn btn-outline-secondary rounded-pill btn-lg px-5 font-weight-bold">Cadastro</button>
+                    <button type="submit" class="btn btn-secondary rounded-pill btn-lg px-4 font-weight-bold">Acessar</button>
+                    <a href="{{route('register')}}" class="btn btn-outline-secondary rounded-pill btn-lg px-5 font-weight-bold">Cadastro</a>
                 </div>
                 <a href="#">Esqueci minha senha</a>
             </form>
@@ -35,7 +35,4 @@
             </p>
         </div>
     </div>
-    <footer>
-        <p>© 2020 Defesa Civil - Todos os direitos reservados</p>
-    </footer>
 @endsection
